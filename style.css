@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica", Arial, sans-serif;
+
+}
+
+.cabecalho {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #E8B251;
+
+}
+
+.layout {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#eu {
+    width: 350px;
+    border: 10px solid white;
+}
+
+.apresentacao {
+    width: 700px;
+    margin: 0 1em;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    line-height: 2em;
+    margin: 0 35px;
+}
+
+.corpo {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #EDF0F2;
+
+}
+
+.coluna-esquerda {
+    width: 350px;
+    height: 280px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px 0 0 30px;
+    background-color: #b8ca53;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px;
+    color: white
+}
+
+.coluna-direita {
+    width: 750px;
+    height: 280px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 30px 30px 0;
+    background-color: white;
+}
+
+.geral {
+    width: 604px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
+    font-size: 1em;
+    line-height: 32px;
+}
+
+.geral strong {
+    font-weight: bold;
+}
+
+.geral i {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.geral div {
+    text-align: center;
+}
+
+.geral p {
+    margin-bottom: 20px;
+}
+
+.geral span {
+    font-size: 0.9em;
+}
+
+.apelidos li {
+    margin: 30px 0;
+    text-align: left;
+}
+
+.a {
+    height: 210px;
+}
